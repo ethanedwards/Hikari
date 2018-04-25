@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAD420EA209036C2002B5A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD420E9209036C2002B5A5E /* AppDelegate.swift */; };
+		AAD420EC209036C2002B5A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD420EB209036C2002B5A5E /* ViewController.swift */; };
+		AAD420EF209036C2002B5A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD420ED209036C2002B5A5E /* Main.storyboard */; };
+		AAD420F1209036C4002B5A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD420F0209036C4002B5A5E /* Assets.xcassets */; };
+		AAD420F4209036C4002B5A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD420F2209036C4002B5A5E /* LaunchScreen.storyboard */; };
+		AAD420FF209036C4002B5A5E /* HikariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD420FE209036C4002B5A5E /* HikariTests.swift */; };
+		AAD4210A209036C4002B5A5E /* HikariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD42109209036C4002B5A5E /* HikariUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAD420FB209036C4002B5A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD420DE209036C2002B5A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD420E5209036C2002B5A5E;
+			remoteInfo = Hikari;
+		};
+		AAD42106209036C4002B5A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAD420DE209036C2002B5A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAD420E5209036C2002B5A5E;
+			remoteInfo = Hikari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAD420E6209036C2002B5A5E /* Hikari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hikari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD420E9209036C2002B5A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAD420EB209036C2002B5A5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAD420EE209036C2002B5A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAD420F0209036C4002B5A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAD420F3209036C4002B5A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAD420F5209036C4002B5A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD420FA209036C4002B5A5E /* HikariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD420FE209036C4002B5A5E /* HikariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikariTests.swift; sourceTree = "<group>"; };
+		AAD42100209036C4002B5A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD42105209036C4002B5A5E /* HikariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HikariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD42109209036C4002B5A5E /* HikariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikariUITests.swift; sourceTree = "<group>"; };
+		AAD4210B209036C4002B5A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAD420E3209036C2002B5A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD420F7209036C4002B5A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD42102209036C4002B5A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAD420DD209036C2002B5A5E = {
+			isa = PBXGroup;
+			children = (
+				AAD420E8209036C2002B5A5E /* Hikari */,
+				AAD420FD209036C4002B5A5E /* HikariTests */,
+				AAD42108209036C4002B5A5E /* HikariUITests */,
+				AAD420E7209036C2002B5A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAD420E7209036C2002B5A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAD420E6209036C2002B5A5E /* Hikari.app */,
+				AAD420FA209036C4002B5A5E /* HikariTests.xctest */,
+				AAD42105209036C4002B5A5E /* HikariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAD420E8209036C2002B5A5E /* Hikari */ = {
+			isa = PBXGroup;
+			children = (
+				AAD420E9209036C2002B5A5E /* AppDelegate.swift */,
+				AAD420EB209036C2002B5A5E /* ViewController.swift */,
+				AAD420ED209036C2002B5A5E /* Main.storyboard */,
+				AAD420F0209036C4002B5A5E /* Assets.xcassets */,
+				AAD420F2209036C4002B5A5E /* LaunchScreen.storyboard */,
+				AAD420F5209036C4002B5A5E /* Info.plist */,
+			);
+			path = Hikari;
+			sourceTree = "<group>";
+		};
+		AAD420FD209036C4002B5A5E /* HikariTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD420FE209036C4002B5A5E /* HikariTests.swift */,
+				AAD42100209036C4002B5A5E /* Info.plist */,
+			);
+			path = HikariTests;
+			sourceTree = "<group>";
+		};
+		AAD42108209036C4002B5A5E /* HikariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAD42109209036C4002B5A5E /* HikariUITests.swift */,
+				AAD4210B209036C4002B5A5E /* Info.plist */,
+			);
+			path = HikariUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAD420E5209036C2002B5A5E /* Hikari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD4210E209036C4002B5A5E /* Build configuration list for PBXNativeTarget "Hikari" */;
+			buildPhases = (
+				AAD420E2209036C2002B5A5E /* Sources */,
+				AAD420E3209036C2002B5A5E /* Frameworks */,
+				AAD420E4209036C2002B5A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hikari;
+			productName = Hikari;
+			productReference = AAD420E6209036C2002B5A5E /* Hikari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAD420F9209036C4002B5A5E /* HikariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD42111209036C4002B5A5E /* Build configuration list for PBXNativeTarget "HikariTests" */;
+			buildPhases = (
+				AAD420F6209036C4002B5A5E /* Sources */,
+				AAD420F7209036C4002B5A5E /* Frameworks */,
+				AAD420F8209036C4002B5A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD420FC209036C4002B5A5E /* PBXTargetDependency */,
+			);
+			name = HikariTests;
+			productName = HikariTests;
+			productReference = AAD420FA209036C4002B5A5E /* HikariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAD42104209036C4002B5A5E /* HikariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAD42114209036C4002B5A5E /* Build configuration list for PBXNativeTarget "HikariUITests" */;
+			buildPhases = (
+				AAD42101209036C4002B5A5E /* Sources */,
+				AAD42102209036C4002B5A5E /* Frameworks */,
+				AAD42103209036C4002B5A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAD42107209036C4002B5A5E /* PBXTargetDependency */,
+			);
+			name = HikariUITests;
+			productName = HikariUITests;
+			productReference = AAD42105209036C4002B5A5E /* HikariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAD420DE209036C2002B5A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ethan;
+				TargetAttributes = {
+					AAD420E5209036C2002B5A5E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AAD420F9209036C4002B5A5E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AAD420E5209036C2002B5A5E;
+					};
+					AAD42104209036C4002B5A5E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AAD420E5209036C2002B5A5E;
+					};
+				};
+			};
+			buildConfigurationList = AAD420E1209036C2002B5A5E /* Build configuration list for PBXProject "Hikari" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAD420DD209036C2002B5A5E;
+			productRefGroup = AAD420E7209036C2002B5A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAD420E5209036C2002B5A5E /* Hikari */,
+				AAD420F9209036C4002B5A5E /* HikariTests */,
+				AAD42104209036C4002B5A5E /* HikariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAD420E4209036C2002B5A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD420F4209036C4002B5A5E /* LaunchScreen.storyboard in Resources */,
+				AAD420F1209036C4002B5A5E /* Assets.xcassets in Resources */,
+				AAD420EF209036C2002B5A5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD420F8209036C4002B5A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD42103209036C4002B5A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAD420E2209036C2002B5A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD420EC209036C2002B5A5E /* ViewController.swift in Sources */,
+				AAD420EA209036C2002B5A5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD420F6209036C4002B5A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD420FF209036C4002B5A5E /* HikariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAD42101209036C4002B5A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD4210A209036C4002B5A5E /* HikariUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAD420FC209036C4002B5A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD420E5209036C2002B5A5E /* Hikari */;
+			targetProxy = AAD420FB209036C4002B5A5E /* PBXContainerItemProxy */;
+		};
+		AAD42107209036C4002B5A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAD420E5209036C2002B5A5E /* Hikari */;
+			targetProxy = AAD42106209036C4002B5A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAD420ED209036C2002B5A5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD420EE209036C2002B5A5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAD420F2209036C4002B5A5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAD420F3209036C4002B5A5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAD4210C209036C4002B5A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAD4210D209036C4002B5A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAD4210F209036C4002B5A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = Hikari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.Hikari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAD42110209036C4002B5A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = Hikari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.Hikari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD42112209036C4002B5A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = HikariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.HikariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hikari.app/Hikari";
+			};
+			name = Debug;
+		};
+		AAD42113209036C4002B5A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = HikariTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.HikariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hikari.app/Hikari";
+			};
+			name = Release;
+		};
+		AAD42115209036C4002B5A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = HikariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.HikariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hikari;
+			};
+			name = Debug;
+		};
+		AAD42116209036C4002B5A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 886M8AM35W;
+				INFOPLIST_FILE = HikariUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.HikariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hikari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAD420E1209036C2002B5A5E /* Build configuration list for PBXProject "Hikari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD4210C209036C4002B5A5E /* Debug */,
+				AAD4210D209036C4002B5A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD4210E209036C4002B5A5E /* Build configuration list for PBXNativeTarget "Hikari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD4210F209036C4002B5A5E /* Debug */,
+				AAD42110209036C4002B5A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD42111209036C4002B5A5E /* Build configuration list for PBXNativeTarget "HikariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD42112209036C4002B5A5E /* Debug */,
+				AAD42113209036C4002B5A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAD42114209036C4002B5A5E /* Build configuration list for PBXNativeTarget "HikariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAD42115209036C4002B5A5E /* Debug */,
+				AAD42116209036C4002B5A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAD420DE209036C2002B5A5E /* Project object */;
+}
